@@ -1,0 +1,29 @@
+{
+  "name": "server-api",
+  "version": "1.0.0",
+  "description": "Servidor que implementa el patrón Pipes and Filters",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/amqplib": "^0.10.5",
+    "@types/bull": "^4.10.0",
+    "@types/faker": "^5.5.9",
+    "@types/node": "^20.11.28",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "amqplib": "^0.10.3",
+    "bull": "^4.12.2",
+    "dotenv": "^16.4.5",
+    "faker": "^5.5.3"
+  }
+}
