@@ -35,7 +35,7 @@ El servidor escuchará en http://localhost:3005/process y procesará los datos r
 
 ## Solución de problemas registrados
 
-- Problema con docker:
+- Problema con docker en `tsconfig.json`:
 
     1. Ir a *Docker Desktop*, eliminar *server-api*.
     2. Volver a ejecutar:

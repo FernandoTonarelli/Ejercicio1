@@ -1,8 +1,8 @@
-import { Channel, connect, Connection } from "amqplib";
+import { Channel, ChannelModel, connect } from "amqplib";
 import { IQueue } from "./IQueue";
 
 export class RabbitMQQueueAdapter<T> implements IQueue<T> {
-  private connection: Promise<Connection>;
+  private connection: Promise<ChannelModel>;
   private channel: Promise<Channel>;
   private queueName: string;
 
